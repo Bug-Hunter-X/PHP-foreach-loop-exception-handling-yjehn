@@ -1,0 +1,1 @@
+This example demonstrates a common issue with PHP's foreach loop: the lack of built-in exception handling within the loop.  If an exception occurs during iteration, the loop terminates immediately. This repository provides a PHP file showcasing the problem and a solution using a try-catch block within a regular for loop to maintain iteration even if exceptions occur.
